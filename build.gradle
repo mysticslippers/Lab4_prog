@@ -1,19 +1,31 @@
 plugins {
-    id 'java'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
 }
 
-group 'me.ifmo'
-version '1.0-SNAPSHOT'
-
-repositories {
-    mavenCentral()
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'com.github.johnrengelman.shadow'
+    repositories {
+        mavenCentral()
+    }
 }
 
-dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-}
-
-test {
-    useJUnitPlatform()
+project(':lab4'){
+    apply plugin: 'application'
+    compileJava.options.encoding = 'UTF-8'
+    compileTestJava.options.encoding = 'UTF-8'
+    mainClassName = 'me.ifmo.Story'
+    jar {
+        manifest {
+            attributes(
+                    'Main-Class': 'me.ifmo.Story'
+            )
+        }
+        from {
+            configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+        }
+    }
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+    }
 }
