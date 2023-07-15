@@ -4,12 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b29622c-60e4-4405-ac15-568aaeac4b63" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6b29622c-60e4-4405-ac15-568aaeac4b63" name="Changes" comment="Preparing">
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/abstractions/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/abstractions/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Alice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Pies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/WhiteRabbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/enums/Paws.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/ExistAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/HoldAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/LookAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/StayAble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/ifmo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/Story.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/Story.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +32,28 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Lab4_prog" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2SZfFyL1So2y2grFGL7WwBztb05" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,13 +68,35 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "jbr-17",
+    "last_opened_file_path": "C:/Users/zavoe/IdeaProjects/Lab4_prog/lab4/src/main/java/me",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zavoe\IdeaProjects\Lab4_prog\lab4\src\main\java\me" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.ifmo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="lab4" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="me.ifmo.Story" />
+      <module name="Lab4_prog.lab4.main" />
+      <option name="PROGRAM_PARAMETERS" value="run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,11 +105,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689358927583</updated>
-      <workItem from="1689358928431" duration="308000" />
+      <workItem from="1689358928431" duration="420000" />
+      <workItem from="1689451245977" duration="272000" />
     </task>
+    <task id="LOCAL-00001" summary="Preparing">
+      <created>1689359328433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689359328433</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Preparing">
+      <created>1689359340692</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689359340692</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Preparing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparing" />
   </component>
 </project>
