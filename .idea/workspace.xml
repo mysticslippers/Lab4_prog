@@ -4,23 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b29622c-60e4-4405-ac15-568aaeac4b63" name="Changes" comment="Preparing">
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/abstractions/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/abstractions/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Alice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Pies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/WhiteRabbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/enums/Paws.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/ExistAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/HoldAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/LookAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/StayAble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="6b29622c-60e4-4405-ac15-568aaeac4b63" name="Changes" comment="lab3">
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/abstractions/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Crowd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Griffon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/JackOfHearts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/exceptions/DistanceOutOfRangeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/exceptions/JudgeNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/ConsiderAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/GuessJudgeAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/LearnAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/NotToBeAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/ReachAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/SitAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/interfaces/TimeSkipAble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/Story.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Alice.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/main/java/me/ifmo/creatures/Alice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -42,12 +46,31 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Lab4_prog" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Lab4_prog" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Lab4_prog" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,7 +108,7 @@
       <recent name="me.ifmo" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.Lab4_prog [jar]">
     <configuration name="lab4" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -96,6 +119,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lab4_prog [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.lab4" />
+      <item itemvalue="Gradle.Lab4_prog [jar]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Lab4_prog [jar]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -106,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689358927583</updated>
       <workItem from="1689358928431" duration="420000" />
-      <workItem from="1689451245977" duration="272000" />
+      <workItem from="1689451245977" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="Preparing">
       <created>1689359328433</created>
@@ -122,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689359340692</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lab3">
+      <created>1689451602833</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689451602833</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +190,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Preparing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparing" />
+    <MESSAGE value="lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3" />
   </component>
 </project>
